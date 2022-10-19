@@ -1,5 +1,6 @@
 # ICVR Task assigment
-[soderzanie]
+1. [Installation & Usage](#Installation & Usage)
+2. [Solution explanation](#Solution explanation)
 
 # Installation & Usage
 1. Download and install darknet framework, like [this one](#https://github.com/AlexeyAB/darknet)
