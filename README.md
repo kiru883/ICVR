@@ -1,9 +1,7 @@
 # ICVR Task assigment
-[Installation & Usage](https://github.com/kiru883/ICVR/blob/main/README.md#installation--usage)
-
-[Solution explanation](https://github.com/kiru883/ICVR/blob/main/README.md#solution-explanation)
-
-  [1. EDA](https://github.com/kiru883/ICVR/blob/main/README.md#1-eda)
+* [Installation & Usage](https://github.com/kiru883/ICVR/blob/main/README.md#installation--usage)
+* [Solution explanation](https://github.com/kiru883/ICVR/blob/main/README.md#solution-explanation)
+  - [1. EDA](https://github.com/kiru883/ICVR/blob/main/README.md#1-eda)
   
   [2. Data preparation and training](https://github.com/kiru883/ICVR/blob/main/README.md#2-data-preparation-and-training)
   
