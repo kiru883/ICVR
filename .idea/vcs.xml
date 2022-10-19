@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/modules/darknet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/modules/darknet/darknet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/modules/darknet_/darknet" vcs="Git" />
+  </component>
+</project>
