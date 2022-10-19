@@ -1,6 +1,12 @@
 # ICVR Task assigment
-1. [Installation & Usage](https://github.com/kiru883/ICVR/blob/main/README.md#installation--usage)
-2. [Solution explanation](#Solution explanation)
+[Installation & Usage](https://github.com/kiru883/ICVR/blob/main/README.md#installation--usage)
+[Solution explanation](https://github.com/kiru883/ICVR/blob/main/README.md#solution-explanation)
+  [1. EDA](https://github.com/kiru883/ICVR/blob/main/README.md#1-eda)
+  [2. Data preparation and training](https://github.com/kiru883/ICVR/blob/main/README.md#2-data-preparation-and-training)
+    [Data preparation](https://github.com/kiru883/ICVR/blob/main/README.md#data-preparation)
+    [Training](https://github.com/kiru883/ICVR/blob/main/README.md#training)
+  [3. Visualize predictions results](https://github.com/kiru883/ICVR/blob/main/README.md#3-visualize-predictions-results)
+  
 
 # Installation & Usage
 1. Download and install darknet framework, like [this one](#https://github.com/AlexeyAB/darknet)
@@ -24,7 +30,7 @@ weights_name=yolov4.weights    <-- specify name of file with yolo model weights 
 
 # Solution explanation
 ## 1. EDA
-Below you can see Q&A about data in this task, EDA available by this link. Below image i write conclusion and tell about bad annotated data.
+Below you can see Q&A about data in this task, EDA available by this [link](https://nbviewer.org/github/kiru883/ICVR/blob/main/notebooks/EDA.ipynb). Below image i write conclusion and tell about bad annotated data.
 ![](eda_qa.png)
 __Conclusion__. This is task of workers/his equipment detection (maybe with goal of compliance of labor protection). There are 3 classes: vest(class 0), 
 helmet(class 1), person(class 2). Dataset has 3222 annotated images in jpg format of same size - 1080x1920. Markup is in the yolo format 
@@ -40,7 +46,7 @@ I split dataset on 3 sets: train/test/val in proportions 0.7/0.15/0.15 according
 train/test/val stratify(with objects / without objects).
 
 ### Training
-Code for data preparation/training located jupyter notebook in /experiments/vA (for all experiments vA, vB and etc.) [link](#fgh).
+Code for data preparation/training located jupyter notebook in /experiments/vA (for all experiments vA, vB and etc.) [link](www).
 In my experiments I train yolov4 and tiny yolov4. Below, the table contains metrics, parameters and comments for each experiment.
 
 | Experiment |                                           Parameters                                          | Metrics mAP@0.5 (mean by 3 classes) |                       Comments                       |
