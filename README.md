@@ -1,17 +1,4 @@
 # ICVR Task assigment
-* [Installation & Usage](https://github.com/kiru883/ICVR/blob/main/README.md#installation--usage)
-* [Solution explanation](https://github.com/kiru883/ICVR/blob/main/README.md#solution-explanation)
-  - [1. EDA](https://github.com/kiru883/ICVR/blob/main/README.md#1-eda)
-  
-  [2. Data preparation and training](https://github.com/kiru883/ICVR/blob/main/README.md#2-data-preparation-and-training)
-  
-    [Data preparation](https://github.com/kiru883/ICVR/blob/main/README.md#data-preparation)
-    
-    [Training](https://github.com/kiru883/ICVR/blob/main/README.md#training)
-    
-  [3. Visualize predictions results](https://github.com/kiru883/ICVR/blob/main/README.md#3-visualize-predictions-results)
-  
-  
 
 # Installation & Usage
 1. Download and install darknet framework, like [this one](https://github.com/AlexeyAB/darknet)
