@@ -1,5 +1,5 @@
 # ICVR Task assigment
-1. [Installation & Usage](#Installation & Usage)
+1. [Installation & Usage](https://github.com/kiru883/ICVR/blob/main/README.md#installation--usage)
 2. [Solution explanation](#Solution explanation)
 
 # Installation & Usage
