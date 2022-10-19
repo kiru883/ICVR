@@ -44,9 +44,9 @@ In my experiments I train yolov4 and tiny yolov4. Below, the table contains metr
 | Experiment |                                           Parameters                                          | Metrics mAP@0.5 (mean by 3 classes) |                       Comments                       |
 |:----------:|:---------------------------------------------------------------------------------------------:|:-----------------------------------:|:----------------------------------------------------:|
 | v0         | Model: Yolo v4, batch size - 64(minibatch size 4)                                             | -                                   | Needs many training time (18h), decided not to train |
-| vA         | Model: Yolo v4 tiny, all parameters the same as in orig. cfg. file                            |       88.12(val) / 84.66(test)      |                       Baseline                       |
+| vA         | Model: Yolo v4 tiny, all parameters the same as in orig. cfg. file                            |       88.12(val) / 84.66(test)      |                                                      |
 | vB         | Same model as in vA, change LR=0.0015, and image size (512x320), number of iterations,  20000 |       82.62(val) / 80.27(test)      |                                                      |
-| vC         |                                                                                               |                                     |                                                      |              
+| vC         | All the same as in vA, changed batch_size(96), lr(0.0024), number of iterations (10000)       |                                     |                                                      |            
 
 ## 3. Visualize predictions results
 For predicts visualization I use better model(v) and images from test set 
