@@ -1,4 +1,4 @@
-# ICVR Task assigment
+# ICVR Task solution
 
 # Installation & Usage
 1. Download and install darknet framework, like [this one](https://github.com/AlexeyAB/darknet)
@@ -38,7 +38,7 @@ I split dataset on 3 sets: train/test/val in proportions 0.7/0.15/0.15 according
 train/test/val stratify(with objects / without objects).
 
 ### Training
-Code for data preparation/training located jupyter notebook in /experiments/vA (for all experiments vA, vB and etc.) [link](www).
+Code for data preparation/training located jupyter notebook in /experiments/vA (for all experiments vA, vB and etc.) [link](https://nbviewer.org/github/kiru883/ICVR/blob/main/experiments/vA/train_vA_vB_vC.ipynb).
 In my experiments I train yolov4 and tiny yolov4. Below, the table contains metrics, parameters and comments for each experiment.
 
 | Experiment |                                           Parameters                                          | Metrics mAP@0.5 (mean by 3 classes) |                       Comments                       |
