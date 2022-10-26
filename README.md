@@ -22,7 +22,7 @@ weights_name=yolov4.weights    <-- specify name of file with yolo model weights 
 
 # Solution explanation
 ## 1. EDA
-Below you can see Q&A about data in this task, EDA available by this [link](https://nbviewer.org/github/kiru883/ICVR/blob/main/notebooks/EDA.ipynb). Below image i write conclusion and tell about bad annotated data.
+Below you can see Q&A about data in this task, EDA available by this [link](https://nbviewer.org/github/kiru883/ICVR/blob/main/notebooks/EDA.ipynb) or /notebooks/EDA.ipynb. Below image i write conclusion and tell about bad annotated data.
 ![](eda_qa.png)
 __Conclusion__. This is task of workers/his equipment detection (maybe with goal of compliance of labor protection). There are 3 classes: vest(class 0), 
 helmet(class 1), person(class 2). Dataset has 3222 annotated images in jpg format of same size - 1080x1920. Markup is in the yolo format 
